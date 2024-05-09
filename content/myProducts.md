@@ -36,6 +36,7 @@
 
 ## Discordボット
 #CSharp #バックエンド | [Githubリポジトリ](https://github.com/tauto1127/harukinDiscordBot)
+データベースを用いたデータ(ブックマークなど)の管理ができます
 
 ## ウェブサイトのユーザー認証をASPNETで実装してみたもの
 #Csharp #バックエンド | [Githubリポジトリ](https://github.com/tauto1127/aspnetMVCUserTokenTest)
@@ -51,6 +52,7 @@
 # 2022年
 ## マインスイーパーを内蔵した目覚まし時計アプリ
 #大学の課題 #processing | [Githubリポジトリ](https://github.com/tauto1127/minesweeper)
+マインスイーパーをクリアしないと，アラームを止められません
 
 ## ブロック崩し
 #大学の課題 #processing | [Githubリポジトリ](https://github.com/tauto1127/blockKuzusi)
@@ -59,6 +61,7 @@
 # 2021年
 ## DisplayOFF 
 #CSharp #WPF #Windows | [Githubリポジトリ](https://github.com/tauto1127/DisplayOFF)
+ボタンを押したらディスプレイをスリープできるソフト
 
 ## ツイキャスコメントビューワー
 #CSharp #WPF #Windows | [Githubリポジトリ](https://github.com/tauto1127/TwitcastingCommentViewer)
