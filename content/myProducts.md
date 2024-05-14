@@ -36,6 +36,7 @@
 
 ## Discordボット
 #CSharp #バックエンド | [Githubリポジトリ](https://github.com/tauto1127/harukinDiscordBot)
+データベースを用いたデータ(ブックマークなど)の管理ができます
 
 ## ウェブサイトのユーザー認証をASPNETで実装してみたもの
 #Csharp #バックエンド | [Githubリポジトリ](https://github.com/tauto1127/aspnetMVCUserTokenTest)
@@ -43,7 +44,7 @@
 これはウェブサイトのユーザー認証の仕組みを勉強して，自分で実装してみたというものです．ユーザー認証関係のフレームワークは使っていなく，ハッシュ化の関数のみライブラリに頼って作りました．
 
 主な機能(ユーザー認証関係)はこちらです
-- パスワードをハッシュ化してそのままデータベースに保存するのではなく，「パスワードソルト」と「パスワードソルト」を使って保存する
+- パスワードをハッシュ化してそのままデータベースに保存するのではなく，「パスワードソルト」と「パスワードペッパー」を使って保存する
 - ユーザーのセッション管理
 
 ウェブサイトも実装していて，そこからユーザー登録やログインができます．
@@ -51,13 +52,16 @@
 # 2022年
 ## マインスイーパーを内蔵した目覚まし時計アプリ
 #大学の課題 #processing | [Githubリポジトリ](https://github.com/tauto1127/minesweeper)
+マインスイーパーをクリアしないと，アラームを止められません
 
 ## ブロック崩し
 #大学の課題 #processing | [Githubリポジトリ](https://github.com/tauto1127/blockKuzusi)
+※gameフォルダが本体です
 
 # 2021年
 ## DisplayOFF 
 #CSharp #WPF #Windows | [Githubリポジトリ](https://github.com/tauto1127/DisplayOFF)
+ボタンを押したらディスプレイをスリープできるソフト
 
 ## ツイキャスコメントビューワー
 #CSharp #WPF #Windows | [Githubリポジトリ](https://github.com/tauto1127/TwitcastingCommentViewer)
