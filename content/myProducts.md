@@ -25,6 +25,8 @@
 
 このアプリはCI/CDを頑張っていて，テストはないのですが自動ビルド，自動デプロイ（[[jitakuServer|自宅サーバー]]に），自動フォーマットがあります．
 
+**自動で，バックエンドプロセスを起動する設定をしてないので，基本的に動いてません**
+
 ~~詳しくはこちらの[[imageProviderForGithub | GithubReadme画像生成紹介ページ]]をご覧ください~~
 
 ## 応用技術者試験のキーワードを抽出してくれるスクリプト
@@ -33,10 +35,15 @@
 # 2023年
 ## p2hacks2023(ハッカソン) 
 #Flutter #Firebase | [Githubリポジトリ](https://github.com/p2hacks2023/pre-02)
+未来大で行われたハッカソンです．
+[[p2hacks2023|詳細はこちら]]
 
 ## Discordボット
 #CSharp #バックエンド | [Githubリポジトリ](https://github.com/tauto1127/harukinDiscordBot)
-データベースを用いたデータ(ブックマークなど)の管理ができます
+
+データベースを用いたデータ(ブックマークなど)の管理や，ゲーム用のサーバーの起動・停止ができます
+
+![[Screenshot 2024-05-18 at 12.31.29.png]]
 
 ## ウェブサイトのユーザー認証をASPNETで実装してみたもの
 #Csharp #バックエンド | [Githubリポジトリ](https://github.com/tauto1127/aspnetMVCUserTokenTest)
@@ -57,6 +64,8 @@
 ## ブロック崩し
 #大学の課題 #processing | [Githubリポジトリ](https://github.com/tauto1127/blockKuzusi)
 ※gameフォルダが本体です
+
+![[2022-06-21 16-29-40.mkv]]
 
 # 2021年
 ## DisplayOFF 
