@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 takuto1127のポートフォリオ",
+    pageTitle: "🪴 梶村拓斗のポートフォリオ",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
