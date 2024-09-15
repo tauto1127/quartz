@@ -32,4 +32,5 @@ title: ポートフォリオへようこそ
 
 
 # 自宅サーバーの構成図(作成中)
-![自宅サーバーの構成図](https://raw.githubusercontent.com/tauto1127/tauto1127/main/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E6%A7%8B%E6%88%90%E5%9B%B3.drawio.svg)
+![自宅サーバー構成図 drawio](https://github.com/user-attachments/assets/5b8efb80-04bc-4903-8c1e-7ee21d2e8da3)
+
