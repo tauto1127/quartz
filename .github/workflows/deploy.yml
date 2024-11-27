@@ -28,12 +28,13 @@ jobs:
         run: npm ci
       - name: Build Quartz
         run: npx quartz build
+      - name: place google html
+        run: curl ${{vars.GOOGLE_HTML_URL}} -o public/${{vars.GOOGLE_HTML_FILENAME}}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: public
-      - name: place google html
-        run: curl ${{vars.GOOGLE_HTML_URL}} -o public/${{vars.GOOGLE_HTML_FILENAME}}
+      
  
   deploy:
     needs: build
