@@ -32,6 +32,8 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: public
+      - name: place google html
+        run: curl ${{vars.GOOGLE_HTML_URL}} -o public/${{vars.GOOGLE_HTML_FILENAME}}
  
   deploy:
     needs: build
