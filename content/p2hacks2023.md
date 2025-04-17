@@ -8,3 +8,5 @@ p2hacks（ハッカソン）
 firebaseを使ったことがなかったため，少し苦戦しましたが最終的にきちんと動くアプリを仕上げられてよかったです．またチームでアイデアを出してプロダクトを作るという過程を経験できてよかったです．
 - 参考URL
 https://github.com/p2hacks2023/pre-02
+- 画面収録
+![](https://s3.takutk.com/misskey/null/71a2e2f5-5950-44da-8f2f-9b8f0c7aaa50.mov)
