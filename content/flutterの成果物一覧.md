@@ -14,14 +14,22 @@
 
 最初は本当に作れるのかなと思ったのですが，それぞれの機能のプロトタイプを作っていくと意外と作れるということがわかり，完成させることができました．新雪というプログラムの中で開発したのですが，その期間は短く後半はとても苦労してしまいました．そのような経験から細かく設計をして時間の見積もりを作る作業の大事さを実感しました．
 
+#### モバイルアプリ
 - AndroidアプリとフォアグラウンドサービスはFlutterで実装しています．
+- 主な機能
+    - バックグラウンドでのアプリの使用状況の取得
+    - 通話機能（ロックを解除していれば，遭遇した時に自動で通話が開始）
+    - Sentryによるログ収集
+#### バックエンド
 - バックエンドはASP.NET(C#)を用いて実装しています
-- アプリとバックエンドとの通信をwebsocketで行うことによって，リアルタイムでの遭遇体験というのを実現しています．
-- バックエンドは自宅サーバーへの自動デプロイを行なっています．(Github Self Hosted runner)
+- アプリとバックエンドとの通信をwebsocketで行うことによって，リアルタイムでの遭遇体験を実現しています．
+#### インフラ
+- バックエンドは自宅サーバーへの自動デプロイを行なっています．
+selfhosted-runnerがサーバー上でビルド，データベースの更新まで行いその後デーモンを再起動することで構築しました
 
 ## 2024年
 ### E-Motion
-#Flutter | [Githubリポジトリ](https://github.com/p2hacks2024/post-04)
+#Flutter #ハッカソン | [Githubリポジトリ](https://github.com/p2hacks2024/post-04)
 
 ![[/assets/products/e-motion/EMotion.png]]
 
@@ -35,7 +43,7 @@ p2hacks2024という学内ハッカソンで作成しました。
 ![[/assets/products/e-motion/e-motion-rec-trimed.gif]]
 
 ### NECHUSHOW
-#Flutter | [Githubリポジトリ](https://github.com/Atori-Ikeyama/facondan-front)
+#Flutter #ハッカソン | [Githubリポジトリ](https://github.com/Atori-Ikeyama/facondan-front)
 
 SPAJAM2024で作ったものです。
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">スマホアプリハッカソン<a href="https://twitter.com/hashtag/SPAJAM?src=hash&amp;ref_src=twsrc%5Etfw">#SPAJAM</a><br>第1回予選 テーマ『猛暑』<br><br>#9<br>猛暑を超える熱中を共有<br>『NECHUSHOW』<br><br>熱中中の動画の熱中度が推定される！最高気温より高ければ優先して表示！<br><br>関節取得で動きの激しさをとる、音量を測定、言葉のポジティブさの推定など、計算にこだわり！<br>技術遊び楽しい🤣 <a href="https://t.co/jS2KoZaUxy">pic.twitter.com/jS2KoZaUxy</a></p>&mdash; koooootake (@koooootake) <a href="https://twitter.com/koooootake/status/1822515848684478774?ref_src=twsrc%5Etfw">August 11, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -49,7 +57,7 @@ SPAJAM2024で作ったものです。
 
 ## 2023年
 ### Strollary
-#Flutter #Firebase | [Githubリポジトリ](https://github.com/p2hacks2023/pre-02)
+#Flutter #Firebase #ハッカソン | [Githubリポジトリ](https://github.com/p2hacks2023/pre-02)
 
 ![[/assets/products/strollary/strollary-logo.png]]
 
