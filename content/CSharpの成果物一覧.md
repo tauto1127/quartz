@@ -60,7 +60,6 @@ selfhosted-runnerがサーバー上でビルド，データベースの更新ま
 - ユーザーのセッション管理
 
 ウェブサイトも実装していて、そこからユーザー登録やログインができます。
-[[aspnetMVCUserTokenTest|詳細はこちら]]
 
 ## 2021年
 ### DisplayOFF 
